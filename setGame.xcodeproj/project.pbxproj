@@ -14,6 +14,7 @@
 		E0F59FE92B8BBFD500D2AA8D /* setGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F59FE82B8BBFD500D2AA8D /* setGameTests.swift */; };
 		E0F59FF32B8BBFD500D2AA8D /* setGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F59FF22B8BBFD500D2AA8D /* setGameUITests.swift */; };
 		E0F59FF52B8BBFD500D2AA8D /* setGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F59FF42B8BBFD500D2AA8D /* setGameUITestsLaunchTests.swift */; };
+		E0F5A0052B8BC08300D2AA8D /* SetGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F5A0042B8BC08300D2AA8D /* SetGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		E0F59FEE2B8BBFD500D2AA8D /* setGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = setGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0F59FF22B8BBFD500D2AA8D /* setGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setGameUITests.swift; sourceTree = "<group>"; };
 		E0F59FF42B8BBFD500D2AA8D /* setGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E0F5A0042B8BC08300D2AA8D /* SetGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,9 @@
 		E0F59FD52B8BBFD400D2AA8D /* setGame */ = {
 			isa = PBXGroup;
 			children = (
+				E0F5A0032B8BC00F00D2AA8D /* View */,
+				E0F5A0022B8BC00100D2AA8D /* ViewModel */,
+				E0F5A0012B8BBFF900D2AA8D /* Model */,
 				E0F59FD62B8BBFD400D2AA8D /* setGameApp.swift */,
 				E0F59FD82B8BBFD400D2AA8D /* ContentView.swift */,
 				E0F59FDA2B8BBFD500D2AA8D /* Assets.xcassets */,
@@ -127,6 +132,28 @@
 				E0F59FF42B8BBFD500D2AA8D /* setGameUITestsLaunchTests.swift */,
 			);
 			path = setGameUITests;
+			sourceTree = "<group>";
+		};
+		E0F5A0012B8BBFF900D2AA8D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E0F5A0042B8BC08300D2AA8D /* SetGame.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E0F5A0022B8BC00100D2AA8D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E0F5A0032B8BC00F00D2AA8D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0F59FD92B8BBFD400D2AA8D /* ContentView.swift in Sources */,
+				E0F5A0052B8BC08300D2AA8D /* SetGame.swift in Sources */,
 				E0F59FD72B8BBFD400D2AA8D /* setGameApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
