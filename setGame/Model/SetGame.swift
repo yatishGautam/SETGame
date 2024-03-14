@@ -6,34 +6,32 @@
 //
 
 import Foundation
-struct SetGame<CardData>{
+struct SetGame{
+    private (set) var cardsOnTable : [CardData] = []
+    private (set) var deck: [CardData] = []
+    private(set) var selectedCards: [CardData] = []
+    
+    init(){
+        initializeDeck()
+    }
+    
+    private mutating func initializeDeck(){
+        deck = CardColor.allCases.flatMap{ colour in
+            CardSymbol.allCases.flatMap{ symbol in
+                CardShading.allCases.flatMap{ shading in
+                    CardItemCount.allCases.compactMap{ itemNumber in
+                        CardData(shading: shading, itemCount: itemNumber, cardType: symbol, colour: colour)
+                    }
+                }
+            }
+        }.shuffled()
+    }
+    
+    private mutating func intializeCardsOnTable() {
+        
+    }
     
 }
 
-struct card{
-    
-}
 
-enum shading {
-    case solid
-    case striped
-    case open
-}
 
-enum numberOfItems{
-    case one
-    case two
-    case three
-}
-
-enum cardColor{
-    case red
-    case green
-    case purple
-}
-
-enum cardSymbol{
-    case oval
-    case squiggles
-    case diamond
-}

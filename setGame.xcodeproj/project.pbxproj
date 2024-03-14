@@ -15,6 +15,8 @@
 		E0F59FF32B8BBFD500D2AA8D /* setGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F59FF22B8BBFD500D2AA8D /* setGameUITests.swift */; };
 		E0F59FF52B8BBFD500D2AA8D /* setGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F59FF42B8BBFD500D2AA8D /* setGameUITestsLaunchTests.swift */; };
 		E0F5A0052B8BC08300D2AA8D /* SetGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F5A0042B8BC08300D2AA8D /* SetGame.swift */; };
+		E0F5A0072B8BC45C00D2AA8D /* CardProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F5A0062B8BC45C00D2AA8D /* CardProperties.swift */; };
+		E0F5A0092B8BC47200D2AA8D /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F5A0082B8BC47200D2AA8D /* CardData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		E0F59FF22B8BBFD500D2AA8D /* setGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setGameUITests.swift; sourceTree = "<group>"; };
 		E0F59FF42B8BBFD500D2AA8D /* setGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E0F5A0042B8BC08300D2AA8D /* SetGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetGame.swift; sourceTree = "<group>"; };
+		E0F5A0062B8BC45C00D2AA8D /* CardProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardProperties.swift; sourceTree = "<group>"; };
+		E0F5A0082B8BC47200D2AA8D /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +142,8 @@
 			isa = PBXGroup;
 			children = (
 				E0F5A0042B8BC08300D2AA8D /* SetGame.swift */,
+				E0F5A0082B8BC47200D2AA8D /* CardData.swift */,
+				E0F5A0062B8BC45C00D2AA8D /* CardProperties.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -286,8 +292,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0F5A0092B8BC47200D2AA8D /* CardData.swift in Sources */,
 				E0F59FD92B8BBFD400D2AA8D /* ContentView.swift in Sources */,
 				E0F5A0052B8BC08300D2AA8D /* SetGame.swift in Sources */,
+				E0F5A0072B8BC45C00D2AA8D /* CardProperties.swift in Sources */,
 				E0F59FD72B8BBFD400D2AA8D /* setGameApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
