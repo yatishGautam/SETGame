@@ -8,12 +8,13 @@
 import Foundation
 
 struct CardData: Equatable, CustomDebugStringConvertible{
+    var id = UUID()
     var shading : CardShading
     var itemCount: CardItemCount
     var cardType: CardSymbol
     var colour: CardColor
     
     var debugDescription: String {
-        return "shading: \(shading), itemCount:\(itemCount), cardType: \(cardType), colour: \(colour)"
+        return "shading: \(shading), itemCount:\(itemCount), cardType: \(cardType), colour: \(colour), id: \(id)"
     }
 }
